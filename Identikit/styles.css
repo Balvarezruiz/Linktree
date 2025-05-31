@@ -1,0 +1,64 @@
+h1{
+    color:rgb(7, 17, 78);
+        font-family:'Montserrat', sans-serif;
+        font-weight:900;
+        font-size: 270%;
+        background-color: #e9faf6;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+}
+#frase{
+   text-align: center;
+   color: rgb(91, 108, 218);
+   font-family:'Montserrat', sans-serif;
+   font-weight:370;
+   font-size: 150%;
+   font-style: italic;
+   margin-bottom: 20px;
+}
+#clic{
+    color: #CAE8E0;
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    font-size:100%;
+    text-decoration: none;
+}
+#artistas{
+    color:#CAE8E0;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+.zoom-img {
+transition: transform 0.4s ease;
+cursor: pointer;
+}   
+.zoom-img:hover{
+    transform: scale(1.1)
+}
+li{
+        display: inline; 
+        margin: 0 40px;
+        text-align: center;
+    }
+    #HOME, #Top, #Juego, #Playlist{
+        color: #CAE8E0;
+        text-decoration: none;
+        font-family:'Montserrat', sans-serif;font-weight: 600; font-size: 140%;
+        transition: all 0.3s ease;
+    }
+    #HOME:hover, #Top:hover,#Juego:hover, #Playlist:hover {
+        color: #ff83cb;
+    }
+.menu{
+    background-color: rgba(54, 59, 102, 0.418);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:0px;
+}
+body{
+    text-align: center;
+}
